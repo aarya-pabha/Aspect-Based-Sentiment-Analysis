@@ -21,9 +21,10 @@ In this project, we:
    - We use BeautifulSoup to scrape product reviews from Flipkart, collecting details like product ratings, review text, upvotes/downvotes, and more.
    - The scraped data is stored in a CSV file and used for further analysis.
    
-2. **Spam Detection**: 
-   - A spam detection model is trained using a **labeled Yelp dataset**.
+. **Spam Detection**: 
+   - A spam detection model is trained using a **[Labelled Yelp Dataset](https://www.kaggle.com/datasets/abidmeeraj/yelp-labelled-dataset)**.
    - The model is applied to the scraped Flipkart reviews to filter out potential spam reviews.
+
 
 3. **Text Preprocessing**:
    - The text is cleaned by removing URLs, emojis, special characters, and non-standard characters.
